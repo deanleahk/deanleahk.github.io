@@ -20,13 +20,12 @@
         data.addColumn('string', 'Yes');
         data.addColumn('number', 'No');
         data.addRows([
-          ['Beneficial to Teaching', 6],
-          ['Beneficial to Assessing', 7],
-          ['Student access', 3],
+          ['Yen', 6],
+          ['No', 4],
         ]);
 
         // Set chart options
-        var options = {'title':'How Much Pizza I Ate Last Night',
+        var options = {'title':'Has the iPad been beneficial to your teaching?',
                        'width':400,
                        'height':300};
 
